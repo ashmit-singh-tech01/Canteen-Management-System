@@ -1,0 +1,23 @@
+# Node
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Laravel
+backend/vendor/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/storage/logs/*.log
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/composer.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
